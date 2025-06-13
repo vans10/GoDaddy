@@ -1,4 +1,4 @@
-# GoDaddy-Final
+# GoDaddy
 #  Female Entrepreneurs Cohort Analysis
 
 This project explores the evolving landscape of women-led microbusinesses using GoDaddy’s survey data from 2023–2024. Conducted in partnership with Babson College, this data-driven R-based research aims to uncover stress patterns, entrepreneurial personas, and strategic opportunities for empowering women entrepreneurs.
