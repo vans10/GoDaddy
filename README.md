@@ -6,7 +6,7 @@ Since 2020, women-led ventures have grown significantly, reflecting shifting wor
  - Work-Hour Patterns: Most women entrepreneurs work 1-10 hours weekly, with significant variations across racial groups and marital statuses.
  - Entrepreneurial Personas: Our analysis identified eight distinct segments, six financially stable (87%) and two financially stressed (13%)—with "The Full-Timer," "The Expert," "The Veteran," and "The Part-Timer" representing the majority.
 
-Based on these findings, we recommend:
+Based on these findings, it is recommended to:
  - Develop tailored financial empowerment solutions including tiered pricing models and micro-lending partnerships.
  - Create digital presence optimization tools with industry-specific templates for women-dominated
    sectors.
