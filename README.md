@@ -117,9 +117,9 @@ I used CART classification trees to define 8 clear entrepreneur personas:
 |------------|-----------------------------------|
 | **Backend**        | R, dplyr, readr, tidyverse|
 | **Visualization**  | ggplot2, leaflet          |
-| **UI / Dashboard** | R Shiny, shinythem        |
+| **UI / Dashboard** | R Shiny, shinytheme       |
 | **ML Models**      | CART Decision Trees       |
-| **Docs**           | Quarto, GitHub M          |
+| **Docs**           | Quarto, GitHub            |
 
 ---
 
