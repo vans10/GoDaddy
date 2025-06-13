@@ -1,15 +1,128 @@
 # GoDaddy-Final
-## Executive Summary
-Since 2020, women-led ventures have grown significantly, reflecting shifting workplace priorities and a growing desire for autonomy. GoDaddy, as a primary enabler of digital entrepreneurship, has a vested interest in understanding the patterns, challenges, and opportunities facing women business owners. I methodically analyzed GoDaddy's survey data from February 2023, August 2023, and February 2024, calculating business age by subtracting launch year from survey year to enable meaningful segmentation. The analysis revealed the following key insights:
- - Gender Representation Shift: Women now outnumber men in newer businesses (2-3 years: 950 women vs. 644 men), yet remain underrepresented in established ventures (10+ years      971 women vs. 1,403 men).
- - Financial Stress Dominance: Nearly 30% of women entrepreneurs cite financial strain as their primary stressor, followed by work-life balance challenges.
- - Work-Hour Patterns: Most women entrepreneurs work 1-10 hours weekly, with significant variations across racial groups and marital statuses.
- - Entrepreneurial Personas: Our analysis identified eight distinct segments, six financially stable (87%) and two financially stressed (13%)—with "The Full-Timer," "The Expert," "The Veteran," and "The Part-Timer" representing the majority.
+#  Female Entrepreneurs Cohort Analysis
 
-Based on these findings, it is recommended to:
- - Develop tailored financial empowerment solutions including tiered pricing models and micro-lending partnerships.
- - Create digital presence optimization tools with industry-specific templates for women-dominated
-   sectors.
- - Implement operational efficiency tools with stress-sensitive interfaces and service pause options.
- - Establish community and mentorship ecosystems connecting veteran entrepreneurs with newcomers.
- - Design personalized growth pathways based on business maturity and entrepreneur education level.
+This project explores the evolving landscape of women-led microbusinesses using GoDaddy’s survey data from 2023–2024. Conducted in partnership with Babson College, this data-driven R-based research aims to uncover stress patterns, entrepreneurial personas, and strategic opportunities for empowering women entrepreneurs.
+
+**Tools Used:** R, ggplot2, dplyr, shiny, leaflet, Quarto
+
+---
+
+## A. Why This Project Matters
+
+Since 2020, there has been a surge in women-led businesses, especially post-pandemic. However, this growth masks deeper challenges—financial strain, limited capital, time poverty, and underrepresentation in long-standing ventures.
+
+By deeply analyzing three cohorts from GoDaddy's surveys (Feb '23, Aug '23, Feb '24), this project reveals how variables like business age, race, education, marital status, and startup capital intersect to shape entrepreneurial outcomes—offering actionable insights to improve equity and sustainability.
+
+---
+
+## B. Business Questions
+
+- What financial and time-related challenges do women entrepreneurs face?
+- How do stress levels vary across education, capital, and work hours?
+- Which demographic factors influence business longevity and work commitment?
+- Can we identify clear personas that help GoDaddy better serve women-led ventures?
+
+---
+
+## C. Project Objectives
+
+- Segment women entrepreneurs by business age, revenue, and stress.
+- Explore how race, marital status, and education affect business operations.
+- Develop actionable personas based on business behavior and financial resilience.
+- Recommend product and policy improvements for GoDaddy’s entrepreneurial users.
+
+---
+
+## D. Data & Methodology
+
+### Data Sources
+
+- **GoDaddy Microbusiness Surveys**  
+  - February 2023  
+  - August 2023  
+  - February 2024  
+- Includes ~10,000+ records across gender, capital, revenue, education, stress, and more.
+
+### Data Preparation
+
+- Merged and cleaned survey datasets
+- Derived variables: business age, binary financial stress indicator
+- Classified businesses: solo vs. with employees
+
+### Methodology
+
+- **EDA:** Bar plots, boxplots, heatmaps, and cohort visualizations
+- **Segmentation:** CART-based personas using stress, hours, education, and capital
+- **Interactive Dashboards:** R Shiny prototypes for dynamic filtering by race, marital status, and more
+
+---
+
+## E. Key Insights
+
+### Gender Shift by Business Age  
+- Women dominate newer ventures (2–3 years), but are underrepresented in 10+ year-old businesses.
+
+### Top Stressor: Financial Pressure  
+- Nearly **30%** of women cite finances as their main source of stress, followed by work-life balance.
+
+### Work Hours Patterns  
+- Most women report working only 1–10 hours/week. Patterns vary significantly by marital status and race.
+
+---
+
+
+## F. ML-Driven Persona Discovery
+
+I used CART classification trees to define 8 clear entrepreneur personas:
+
+### **Financially Stable (87%)**
+- **The Full-Timer**: <55 years, <9-year-old biz, low capital, works 31–50+ hrs/week  
+- **The Expert**: 55+, well-educated, <8 years in biz  
+- **The Veteran**: 55–64, established biz, high resilience  
+- **The Part-Timer**: <55, moderate capital, part-time work, side-hustlers  
+- **The Starter**: Young, low education, very low capital  
+- **The Senior**: 65+, long-established business
+
+### **Financially Stressed (13%)**
+- **The Struggler**: <55, low education, minimal capital, unstable hours  
+- **The Hard Worker**: <55, low education, invested >$1,000, full-time, still stressed
+
+---
+
+## G. Strategic Recommendations
+
+###  Financial Empowerment  
+- Tiered pricing, micro-loans, and milestone-based discounts  
+- AI-powered budgeting tools  
+
+###  Digital Tools  
+- Website templates for women-led sectors  
+- Mobile-first commerce solutions  
+
+###  Operational Efficiency  
+- One-click automation, stress-aware UI, and service pause features  
+
+###  Mentorship & Community  
+- Industry-based mentorship matching  
+- Dedicated forums and storytelling space  
+
+###  Personalized Growth  
+- Diagnostic tools, learning journeys, and live "office hours" with experts  
+
+---
+
+## H.  Technologies Used
+
+| Layer      | Tools                             |
+|------------|-----------------------------------|
+| **Backend**        | R, dplyr, readr, tidyverse|
+| **Visualization**  | ggplot2, leaflet          |
+| **UI / Dashboard** | R Shiny, shinythem        |
+| **ML Models**      | CART Decision Trees       |
+| **Docs**           | Quarto, GitHub M          |
+
+---
+
+## I. Conclusion
+
+Women are driving a new era of microbusiness—but they face structural barriers rooted in financial and time constraints. This project offers GoDaddy and other stakeholders the data and tools needed to tailor support, boost long-term business success, and foster inclusive innovation.
