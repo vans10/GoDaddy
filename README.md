@@ -17,10 +17,17 @@ By deeply analyzing three cohorts from GoDaddy's surveys (Feb '23, Aug '23, Feb 
 
 ## B. Business Questions
 
-- What financial and time-related challenges do women entrepreneurs face?
-- How do stress levels vary across education, capital, and work hours?
-- Which demographic factors influence business longevity and work commitment?
-- Can we identify clear personas that help GoDaddy better serve women-led ventures?
+-FROM SOLO TO TEAMWORK: STRESS PATTERNS IN WOMEN’S BUSINESSES: This bar chart shows how female entrepreneurs split between being solo and managing employees, based on how      many hours they work per week and their stress level (1–7).
+![Screenshot 2025-06-13 132102](https://github.com/user-attachments/assets/17cba506-062f-41be-bd57-42f2039d4801)
+
+- STRESS BY EDUCATION AND CAPITAL: The boxplot graph shows how startup capital levels relate to stress among female entrepreneurs, filtered by education level. 
+![image](https://github.com/user-attachments/assets/71b81ae2-f1d4-42d7-b6bd-76057ce6ce65)
+
+- INFLUENCE OF RACE AND MARITAL STATUS ON WORKING HOURS OF FEMALE ENTREPRENEURS: This heatmap shows the distribution of weekly hours worked by female entrepreneurs across       different marital statuses, and it updates based on the selected race category. 
+![image](https://github.com/user-attachments/assets/fbfc7371-6dda-4d71-9d0d-e0febc5360af)
+
+- INFLUENCE OF AGE ON WOMEN’S ENTREPRENURIAL PATTERNS: This graph displays the distribution of businesses by their age, segmented by the owner's age range.
+![image](https://github.com/user-attachments/assets/74d62a0b-d9df-4b55-bede-bc1b15a8ca75)
 
 ---
 
