@@ -17,7 +17,7 @@ By deeply analyzing three cohorts from GoDaddy's surveys (Feb '23, Aug '23, Feb 
 
 ## B. Business Questions
 
--FROM SOLO TO TEAMWORK: STRESS PATTERNS IN WOMEN’S BUSINESSES: This bar chart shows how female entrepreneurs split between being solo and managing employees, based on how      many hours they work per week and their stress level (1–7).
+- FROM SOLO TO TEAMWORK: STRESS PATTERNS IN WOMEN’S BUSINESSES: This bar chart shows how female entrepreneurs split between being solo and managing employees, based on how      many hours they work per week and their stress level (1–7).
 ![Screenshot 2025-06-13 132102](https://github.com/user-attachments/assets/17cba506-062f-41be-bd57-42f2039d4801)
 
 - STRESS BY EDUCATION AND CAPITAL: The boxplot graph shows how startup capital levels relate to stress among female entrepreneurs, filtered by education level. 
